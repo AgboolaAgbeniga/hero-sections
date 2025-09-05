@@ -1,0 +1,7 @@
+.handwritten-underline {
+  background-image: url('./components/socialabiz/assets/line.svg'); /* Adjust path for public folder */
+  background-size: 100% auto;
+  background-position: 0px 63px ;
+  background-repeat: no-repeat;
+  padding-bottom: 8px; /* Adjust as needed */
+}
