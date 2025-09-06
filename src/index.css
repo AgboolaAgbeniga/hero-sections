@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "tailwindcss";
+@font-face {
+    font-family: Aileron ;
+    src: url(./components/replo/assets/fonts/aileron/Aileron-Light.otf) format("opentype");
+         
+}
 
 @theme{
-    --font-roboto: Roboto, "sans-serif"
+    --font-roboto: Roboto, "sans-serif";
+    --font-figtree: "Figtree", sans-serif;;
+    --font-space-mono: "Space Mono", monospace;
+    --font-aileron: Aileron, sans-serif;
 }

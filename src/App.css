@@ -5,3 +5,9 @@
   background-repeat: no-repeat;
   padding-bottom: 8px; /* Adjust as needed */
 }
+.grid-bg{
+  background-image: url('./components/replo/assets/grid.svg'); /* Adjust path for public folder */
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
