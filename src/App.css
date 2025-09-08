@@ -6,8 +6,25 @@
   padding-bottom: 8px; /* Adjust as needed */
 }
 .grid-bg{
-  background-image: url('./components/replo/assets/grid.svg'); /* Adjust path for public folder */
-  background-size: 100vw auto;
+  background-image: url('./components/replo/assets/grid.png'); /* Adjust path for public folder */
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: 0px -30px;
+  
+}
+@media screen and (max-width: 1464px) {
+  .grid-bg{
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% -10px;
+  }
+  
+}
+
+.logo-bg{
+  background-image: url('./components/logo/assets/logo_background.png'); /* Adjust path for public folder */
+  background-size: auto;
+  background-repeat: repeat-x;
   background-position: center;
+  
 }
